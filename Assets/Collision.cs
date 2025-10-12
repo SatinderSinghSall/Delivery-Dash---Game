@@ -6,4 +6,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         Debug.Log("Ouch! - Collision Occured.");
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Satinder McDash passed!");
+    }
 }
