@@ -1,0 +1,47 @@
+# =========================
+# Unity / C# / VS Code .gitignore
+# =========================
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Asset Store tools
+*.unitypackage
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.tmp
+*.userprefs
+*.booproj
+
+# Crash reports and temp files
+sysinfo.txt
+*.stacktrace
+*.bak
+*.old
+*.orig
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rider IDE
+.idea/
+*.iml
+
+# Auto-generated files from Unity Collaborate
+.collabignore
