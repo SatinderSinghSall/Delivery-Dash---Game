@@ -3,8 +3,8 @@ using UnityEngine.InputSystem;
 
 public class Driver : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 0.1f;
-    [SerializeField] float steerSpeed = 2f;
+    [SerializeField] float moveSpeed = 15f;
+    [SerializeField] float steerSpeed = 300f;
 
     void Update()
     {

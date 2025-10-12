@@ -444,8 +444,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b224ca93fb2da54d9f3dbde9ec8e742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Driver
-  steerSpeed: 2
-  moveSpeed: 0.1
+  moveSpeed: 10
+  steerSpeed: 250
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
