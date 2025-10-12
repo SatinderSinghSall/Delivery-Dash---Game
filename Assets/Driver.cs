@@ -28,11 +28,13 @@ public class Driver : MonoBehaviour
 
         else if (Keyboard.current.dKey.isPressed)
         {
-            steer = - 1;
+            steer = -1;
         }
 
+        float moveAmount = move * moveSpeed * Time.deltaTime;
+        float steerAmount = steer * steerSpeed * Time.deltaTime;
 
-        transform.Translate(0, move * moveSpeed, 0);
-        transform.Rotate(0, 0, steer * steerSpeed);
+        transform.Translate(0, moveAmount, 0);
+        transform.Rotate(0, 0, steerAmount);
     }
 }
